@@ -12,7 +12,7 @@ public class Advent2019Main {
 		//int val = day2.calculate();
 		//System.out.println(val);
 		
-		System.out.println(day2.part2Answer());
+		//System.out.println(day2.part2Answer());
 	}
 
 }
