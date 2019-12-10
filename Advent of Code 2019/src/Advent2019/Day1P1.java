@@ -63,7 +63,12 @@ public class Day1P1 {
 			int x = list.get(i).intValue();
 			sum += x;
 		}
-		
+		try {
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return sum;
 	}
 	
@@ -116,7 +121,12 @@ public class Day1P1 {
 			int x = list.get(i).intValue();
 			sum += x;
 		}
-		
+		try {
+			br.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		return sum;
 	}
 	

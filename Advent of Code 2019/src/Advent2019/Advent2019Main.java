@@ -9,8 +9,10 @@ public class Advent2019Main {
 		//System.out.println(sum);
 		
 		Day2 day2 = new Day2();
-		int val = day2.calculate();
-		System.out.println(val);
+		//int val = day2.calculate();
+		//System.out.println(val);
+		
+		System.out.println(day2.part2Answer());
 	}
 
 }
